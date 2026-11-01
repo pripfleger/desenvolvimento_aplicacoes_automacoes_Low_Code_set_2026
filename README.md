@@ -128,7 +128,7 @@ No quadro "Chamados", crie duas listas: **Entrada para verificação** e **APROV
 - **Ação:** *post to URL* com a URL do Webhook do Make e o payload:
 
 ```json
-{"card_id": "{cardid}", "card_name": "{cardname}"}
+{"card_id": "{cardid}", "card_name": "{cardname}", "card_desc": "{carddesc}"}
 ```
 
 ### 5. Conteúdo do card no Trello
